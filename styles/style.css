@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -37,6 +33,8 @@
 .table {
   width: 1100px;
   margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -47,6 +45,7 @@
   width: 250px;
   margin-right: 0;
   margin-top: 60px;
+  box-sizing: border-box;
 }
 
 .table__heading {
@@ -82,6 +81,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  box-sizing: border-box;
   position: relative;
   display: flex;
   background-color: #f2f2f2;
@@ -106,7 +106,6 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-
   align-self: center;
 }
 
@@ -203,7 +202,7 @@
 /* Блок feynman */
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   position: relative;
   background-color: #f2f2f2;
   background-image: url("../images/feynman.png");
@@ -280,6 +279,7 @@
   min-height: 350px;
   margin: 0;
   padding: 60px 0 40px;
+  box-sizing: border-box;
   background-color: #1f1f1f;
   color: #ffffff;
   display: flex;
@@ -293,7 +293,7 @@
   justify-content: space-between;
 }
 
-.column_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
 }
@@ -338,7 +338,7 @@
   font-weight: normal;
 }
 
-.column_content_copyright, .column_content_info, .column_content_social, .footer__column-links {
+.footer__column_content_copyright, .footer__column_content_info, .footer__column_content_social, .footer__column-links {
   display: flex;
   flex-direction: column;
 }
