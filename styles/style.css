@@ -328,6 +328,8 @@
 
 .footer__column-links {
   margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__social-icon {
