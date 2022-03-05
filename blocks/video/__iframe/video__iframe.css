@@ -5,3 +5,9 @@
   height: 316px;
   z-index: 2;
 }
+
+.video__iframe iframe {
+  width: 515px;
+  height: 316px;
+  border: none;
+}
