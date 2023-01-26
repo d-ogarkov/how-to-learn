@@ -10,10 +10,7 @@
 
 * `index.html`
 
-## Проект в GitHub Pages
+## Ссылки
 
-* [Ссылка на проект в GitHub Pages](https://d-ogarkov.github.io/how-to-learn/)
-
-## Репозиторий
-
-* [Ссылка на репозиторий](https://github.com/d-ogarkov/how-to-learn)
+* [Проект в GitHub Pages](https://d-ogarkov.github.io/how-to-learn/)
+* [Репозиторий](https://github.com/d-ogarkov/how-to-learn)
