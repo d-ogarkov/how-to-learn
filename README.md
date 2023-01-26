@@ -6,11 +6,10 @@
 
 Использованы расширенные возможности HTML и CSS: флексбокс-верстка, позиционирование, продвинутая семантика, анимации, фреймы, подключаемые шрифты. Файловая структура по БЭМ (Nested).
 
-## Запуск
+## Демо
 
-* `index.html`
+* [Проект на GitHub Pages](https://d-ogarkov.github.io/how-to-learn/)
 
 ## Ссылки
 
-* [Проект в GitHub Pages](https://d-ogarkov.github.io/how-to-learn/)
 * [Репозиторий](https://github.com/d-ogarkov/how-to-learn)
